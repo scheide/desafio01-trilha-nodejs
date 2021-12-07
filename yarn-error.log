@@ -1,0 +1,81 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/marcos/.zinit/polaris/sbin:/home/marcos/.zinit/polaris/bin:/home/marcos/.zinit/polaris/usr/sbin:/home/marcos/.zinit/polaris/usr/bin:/home/marcos/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:137009:13)
+      at Interface.emit (events.js:198:13)
+      at Interface._ttyWrite (readline.js:801:16)
+      at ReadStream.onkeypress (readline.js:184:10)
+      at ReadStream.emit (events.js:198:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1073:36)
+      at ReadStream.emit (events.js:198:13)
+      at addChunk (_stream_readable.js:288:12)
+
+npm manifest: 
+  {
+    "name": "01-github-explorer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "dev": "webpack serve",
+      "build": "cross-env NODE_ENV=production webpack",
+      "test": "jest --watchAll"
+    },
+    "dependencies": {
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-icons": "^4.2.0"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.12.10",
+      "@babel/core": "^7.12.10",
+      "@babel/preset-env": "^7.12.11",
+      "@babel/preset-react": "^7.12.10",
+      "@babel/preset-typescript": "^7.12.7",
+      "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+      "@testing-library/jest-dom": "^5.11.9",
+      "@testing-library/react": "^11.2.5",
+      "@types/react-dom": "^17.0.0",
+      "babel-loader": "^8.2.2",
+      "babel-preset-react-app": "^10.0.0",
+      "cross-env": "^7.0.3",
+      "css-loader": "^5.0.1",
+      "html-webpack-plugin": "^4.5.1",
+      "identity-obj-proxy": "^3.0.0",
+      "jest": "^26.6.3",
+      "node-sass": "^6.0.1",
+      "react-app-polyfill": "^2.0.0",
+      "react-refresh": "^0.9.0",
+      "sass-loader": "^10.1.1",
+      "style-loader": "^2.0.0",
+      "ts-node": "^9.1.1",
+      "typescript": "^4.1.3",
+      "webpack": "^5.17.0",
+      "webpack-cli": "^4.4.0",
+      "webpack-dev-server": "^3.11.2"
+    },
+    "repository": "https://github.com/scheide/desafio01-trilha-nodejs.git",
+    "author": "Marcos Scheide Custodio <marcos.custodio@serpro.gov.br>"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

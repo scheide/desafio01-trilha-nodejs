@@ -4,14 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve",
+    "dev": "webpack serve --port 8088",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"
   },
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-icons": "^4.2.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
@@ -19,10 +19,11 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@types/react-dom": "^17.0.0",
+    "babbel": "^3.0.12",
     "babel-loader": "^8.2.2",
     "babel-preset-react-app": "^10.0.0",
     "cross-env": "^7.0.3",
@@ -40,5 +41,7 @@
     "webpack": "^5.17.0",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "repository": "https://github.com/scheide/desafio01-trilha-nodejs.git",
+  "author": "Marcos Scheide Custodio <marcos.custodio@serpro.gov.br>"
 }
